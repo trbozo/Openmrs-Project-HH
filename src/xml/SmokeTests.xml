@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite">
+    <test name="SmokeTests">
+        <classes>
+            <class name="testCase.OpenMrs">
+                <methods>
+                    <include name="US_401" />
+                    <include name="US_402" />
+                    <include name="US_403" />
+                    <include name="US_405" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
